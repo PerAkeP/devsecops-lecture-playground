@@ -6,10 +6,10 @@ on:
       - "main"
 
 env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
-  TEST_TAG: ghcr.io/${{ github.repository }}:test
-  LATEST_TAG: ghcr.io/${{ github.repository }}:latest
+  REGISTRY: ghcr.io/perakep
+  IMAGE_NAME: perakep/devsecops-lecture-playground
+  TEST_TAG: ghcr.io/perakep/devsecops-lecture-playground:test
+  LATEST_TAG: ghcr.io/perakep/devsecops-lecture-playground:latest
 
 jobs:
   docker:
